@@ -4,25 +4,17 @@ Official golang implementation of the pbfcoin protocol
 
           | Linux   | OSX | ARM | Windows | Tests
 ----------|---------|-----|-----|---------|------
-develop   | [![Build+Status](https://build.pbfdev.com/buildstatusimage?builder=Linux%20Go%20develop%20branch)](https://build.pbfdev.com/builders/Linux%20Go%20develop%20branch/builds/-1) | [![Build+Status](https://build.pbfdev.com/buildstatusimage?builder=Linux%20Go%20develop%20branch)](https://build.pbfdev.com/builders/OSX%20Go%20develop%20branch/builds/-1) | [![Build+Status](https://build.pbfdev.com/buildstatusimage?builder=ARM%20Go%20develop%20branch)](https://build.pbfdev.com/builders/ARM%20Go%20develop%20branch/builds/-1) | [![Build+Status](https://build.pbfdev.com/buildstatusimage?builder=Windows%20Go%20develop%20branch)](https://build.pbfdev.com/builders/Windows%20Go%20develop%20branch/builds/-1) | [![Buildr+Status](https://travis-ci.org/pbfcoin/go-pbfcoin.svg?branch=develop)](https://travis-ci.org/pbfcoin/go-pbfcoin) [![codecov.io](http://codecov.io/github/pbfcoin/go-pbfcoin/coverage.svg?branch=develop)](http://codecov.io/github/pbfcoin/go-pbfcoin?branch=develop)
-master    | [![Build+Status](https://build.pbfdev.com/buildstatusimage?builder=Linux%20Go%20master%20branch)](https://build.pbfdev.com/builders/Linux%20Go%20master%20branch/builds/-1) | [![Build+Status](https://build.pbfdev.com/buildstatusimage?builder=OSX%20Go%20master%20branch)](https://build.pbfdev.com/builders/OSX%20Go%20master%20branch/builds/-1) | [![Build+Status](https://build.pbfdev.com/buildstatusimage?builder=ARM%20Go%20master%20branch)](https://build.pbfdev.com/builders/ARM%20Go%20master%20branch/builds/-1) | [![Build+Status](https://build.pbfdev.com/buildstatusimage?builder=Windows%20Go%20master%20branch)](https://build.pbfdev.com/builders/Windows%20Go%20master%20branch/builds/-1) | [![Buildr+Status](https://travis-ci.org/pbfcoin/go-pbfcoin.svg?branch=master)](https://travis-ci.org/pbfcoin/go-pbfcoin) [![codecov.io](http://codecov.io/github/pbfcoin/go-pbfcoin/coverage.svg?branch=master)](http://codecov.io/github/pbfcoin/go-pbfcoin?branch=master)
+## pbfcoin Go
 
-[![API Reference](
-https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-)](https://godoc.org/github.com/pbfcoin/go-pbfcoin) 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pbfcoin/go-pbfcoin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+Official golang implementation of the pbfcoin protocol
 
+          | Linux   | OSX | ARM | Windows | Tests
+----------|---------|-----|-----|---------|------
+develop   | (http://www.paybf.com/)
+master    | (http://www.paybf.com/)
 ## Automated development builds
 
-The following builds are build automatically by our build servers after each push to the [develop](https://github.com/pbfcoin/go-pbfcoin/tree/develop) branch.
-
-* [Docker](https://registry.hub.docker.com/u/pbfcoin/client-go/)
-* [OS X](http://build.pbfdev.com/builds/OSX%20Go%20develop%20branch/Mist-OSX-latest.dmg)
-* Ubuntu
-  [trusty](https://build.pbfdev.com/builds/Linux%20Go%20develop%20deb%20i386-trusty/latest/) |
-  [utopic](https://build.pbfdev.com/builds/Linux%20Go%20develop%20deb%20i386-utopic/latest/)
-* [Windows 64-bit](https://build.pbfdev.com/builds/Windows%20Go%20develop%20branch/Gpbf-Win64-latest.zip)
-* [ARM](https://build.pbfdev.com/builds/ARM%20Go%20develop%20branch/gpbf-ARM-latest.tar.bz2)
+The following builds are build automatically by our build servers after each push to the [develop](http://www.paybf.com/) branch.
 
 ## Building the source
 
@@ -58,16 +50,8 @@ To get the options available:
 
     gpbf help
 
-For further details on options, see the [wiki](https://github.com/pbfcoin/go-pbfcoin/wiki/Command-Line-Options)
+For further details on options, see the [wiki](https://github.com/bfchain/go-pbfcoin/wiki)
 
 ## Contribution
 
-If you'd like to contribute to go-pbfcoin please fork, fix, commit and
-send a pull request. Commits who do not comply with the coding standards
-are ignored (use gofmt!). If you send pull requests make absolute sure that you
-commit on the `develop` branch and that you do not merge to master.
-Commits that are directly based on master are simply ignored.
-
-See [Developers' Guide](https://github.com/pbfcoin/go-pbfcoin/wiki/Developers'-Guide)
-for more details on configuring your environment, testing, and
-dependency management.
+Contribution to PBFCoin is welcomed. Please commit on the develop branch instead of master when sending pull requests.
